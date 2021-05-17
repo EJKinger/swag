@@ -1,0 +1,8 @@
+---
+- id: swag
+  name: swag
+  description: Cconverts Go annotations to Swagger Documentation
+  language: golang
+  entry: cmd/swag/main
+  always_run: true
+  args: ["init", "--parseDependency"]
