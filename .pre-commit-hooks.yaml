@@ -5,4 +5,5 @@
   language: golang
   entry: swag
   always_run: true
+  pass_filenames: false
   args: ["init", "--parseDependency"]
