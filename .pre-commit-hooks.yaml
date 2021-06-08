@@ -5,4 +5,4 @@
   language: golang
   entry: cmd/swag/main
   always_run: true
-  args: ["init", "--parseDependency"]
+  args: ["init", "--parseDependency", "--parseInternal"]
